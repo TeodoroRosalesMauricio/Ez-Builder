@@ -1,0 +1,362 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 mar. 2022, 14:17:35
+    Author     : Mauricio
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*----- Letrero de la instrucción -----*/
+
+.instruccion{
+    color: #ffffff;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 18% 82%;
+    padding: 10px 30px 10px 30px;
+}
+
+/* Estilo que indica el tamaño de la imagen */
+.imginstruccion{
+    background-color: transparent;
+    height: 130px; 
+    width: 100%; 
+}
+
+/* Estilo para ajustar la imagen en el div */
+.imginstruccion img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.instruccionletras{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+/*----- Primera pagina -----*/
+
+/*Estilo del div donde se contiene toda la informacion*/
+.divmarca{
+    background-color: transparent;
+    color: #000000;
+    width: 80%;
+    height: 510px;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px 340px;
+}
+
+/*Estilo del div donde van las imagenes*/
+.selectmarca{
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Estilo que indica el tamaño de la imagen */
+.imgmarca{
+    background-color: transparent;
+    height: 300px; 
+    width: 100%; 
+}
+
+/* Estilo para ajustar la imagen en el div */
+.imgmarca img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.imgmarca:hover {
+    height: 290px;
+    /*border-radius: 8px 8px 8px 8px;
+    border: 3px solid #000000;*/
+}
+
+
+
+/*----- Pagina seleccion cpu -----*/
+
+/* Estilo donde va la pagina */
+.divseleccion{
+    background-color: transparent;
+    color: #000000;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto;
+}
+/* Estilo donde esta la lista de productos */
+.seleccionar{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 10px 30px 10px 30px;
+}
+
+.listaprods{
+    padding-top: 20px;
+}
+
+
+/* Estilo donde la barra lateral */
+.divdelabarralateral{
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+/* Estilo donde van lasletras de la barra lateral */
+#colorcito{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 15px 20px 15px;
+    font-size: 26px;
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+/* Estilo donde van el precio total */
+.totalprecio{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+}
+/* Estilo donde van la imagen */
+.imgdinero{
+    padding: 15px 25px 25px 25px;
+    background-color: transparent;
+    height: 100%; 
+    width: 100%;
+}
+/* Estilo para que la imagen se ajuste */
+.imgdinero img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.listapendiente{
+    background-color: transparent;
+}
+
+
+/* Estilo del footer temporal */
+.fottertemporal{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo del div donde va toda la informacion del producto*/
+.info_prod{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 25% 55% 20% ;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+/* Estilo div donde va la imagen*/
+.divimg_prod{
+    background-color: transparent;
+    height: 180px; 
+    width: 100%; 
+}
+
+/* Estilo para ajustar la imagen en el div */
+.divimg_prod img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+/* Estilo de las caracteristicas del prod*/
+.detalles{
+    background-color: transparent;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
+}
+/* Estilo del div donde esta el precio del producto*/
+.presio{
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+}
+/* Estilo del titulo del producto*/
+.titulodelprodselect{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Estilo del boton */
+.btnseleccionar{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+}
+
+/* Estilo del boton otra vez ekisde */
+.btnseleccionar:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 3px solid #000000;
+}
+/* Estilo del techesito*/
+.tachesito{
+    text-decoration: line-through ; /* ya no c uso ekisde */
+}
+
+
+/* Estilo de nuevas letras*/
+.instruccionletrasZzz{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Estilo del div donde se seleccionan los modulos extras*/
+.modram{
+    background-color: transparent;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+/* Estilo del div donde esta el boton de omitir*/
+.omitir{
+    background-color: transparent;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+}
+/* Estilo del div donde va toda la informacion*/
+.seleccionarZzz{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 170px auto;
+    padding: 10px 30px 10px 30px;
+}
+
+
+
+/* Estilo del div dondde se selecciona el nombre*/
+.nombreselect{
+    background-color: transparent;
+    height: 200px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+}
+/* Estilo del edittext de seleccionarr nombre*/
+.textonombre{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+
+.divproductosdos{
+    background-color: transparent;
+    color: #000000;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: 150px auto 150px;
+}
+
+.instrucciondos{
+    width: 80%;
+    color: #ffffff;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+
+.botonesfinales{
+    width: 75%;
+    margin: auto;
+    color: #ffffff;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btnfinales{
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+}
+
+/* Estilo del boton otra vez ekisde */
+.btnfinales:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 3px solid #000000;
+}
+
+.centrarbtns{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

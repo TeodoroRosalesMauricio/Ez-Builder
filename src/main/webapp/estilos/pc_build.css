@@ -1,0 +1,205 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 mar. 2022, 15:39:38
+    Author     : Mauricio
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*----- divs -----*/
+
+/*Estilo del div donde se contiene toda la informacion*/
+.pcbuild{
+    background-color: transparent;
+    color: #000000;
+    width: 90%;
+    height: 2050px;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 250px 100px 100px 975px 100px 250px 275px;
+}
+
+/* Estilo del div donde esta el titulo*/
+.titulo{
+    color: #ffffff;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 20% 15% 65%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 100%;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px blue, 0 0 10px blue;
+    border-radius: 10px;
+}
+
+.centrartextito{
+    margin: auto;
+}
+
+/* Estilo del div de las instrucciones*/
+.instruc{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px 10px 10px 10px;
+    width: 70%;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px orangered, 0 0 10px orangered;
+    border-radius: 10px;
+}
+
+/* Estilo del div de las indicaciones*/
+.indicacion{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px red, 0 0 10px red;
+    border-radius: 10px;
+}
+
+/* Estilo del div donde van las imagenes de los productos*/
+.imagenes{
+    background-color: transparent;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+/* Estilo del div de cada cuadro*/
+.cuadrito{
+    color: #ffffff;
+    background-color: #000000;
+    display: grid;
+    grid-template-rows: 60px 250px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px darkgreen, 0 0 10px darkgreen;
+    border-radius: 10px;
+}
+
+/* Estilo del div donde esta el boton de la imformacion*/
+.recomendacion{
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    line-height: 100%;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px darkgreen, 0 0 10px darkgreen;
+    border-radius: 10px;
+}
+
+.recomendacion:hover {
+    box-shadow: inset 0 0 10px blue, 0 0 10px cyan;
+}
+
+/* Estilo del div donde esta el boton de empezar*/
+.empezar{
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+
+
+/*----- Estilos letras -----*/
+.letratit{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.letranorm{
+    font-size: 40px;
+}
+
+.letrafea{
+    font-size: 30px;
+    color: #000000;
+}
+
+.letrasmasnorm{
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+/*----- Imagenes -----*/
+/* Estilo que indica el tamaño de la imagen */
+.img_div{
+    color: #ffffff;
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+}
+
+/* Estilo para ajustar la imagen en el div */
+.img_div img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Estilo del boton */
+.botoncito{
+    width: 250px;
+    height: 65px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo del boton otra vez ekisde */
+.botoncito:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 3px solid #000000;
+    /*box-shadow:  2px 2px 5px violet;*/
+}

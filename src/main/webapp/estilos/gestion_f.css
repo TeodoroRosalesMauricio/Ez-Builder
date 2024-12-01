@@ -1,0 +1,417 @@
+
+.base{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white
+}
+
+.formulario{
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.espacio{
+    width: 100%;
+    height: 4%;
+    background-color: black;
+    position: static;
+}
+
+.rectangulo{
+    width: 100%;
+    height: 35px;
+}
+
+.texto{
+    width: 40%;
+    height: 30px;
+    left: 0px;
+    padding: 5px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.barra{
+    width: 60%;
+    height: 30px;
+    right: 0px;
+    position: absolute;
+}
+
+.input{
+    height: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid white !important;
+    background: transparent !important;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    color: white;
+}
+
+.textarea{
+    height: 150px;
+    width: 100%;
+    margin-top: 3px;
+    background: transparent !important;
+    font-size: 15px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+}
+
+.divtextarea{
+    width: 65%;
+    height: 200px;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+}
+
+.botonc{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    bottom: 30px;
+}
+
+.carritob{
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+    background: #000000;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+}
+
+
+.basecpu{
+    width: 60%;
+    height: 130%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white
+}
+
+
+.basefp{
+    width: 60%;
+    height: 110%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white
+}
+
+
+.basessd{
+    width: 60%;
+    height: 95%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white
+}
+
+.basembo{
+    width: 60%;
+    height: 180%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+        border: 3px solid white;
+}
+
+.basegabi{
+    width: 60%;
+    height: 150%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+        border: 3px solid white;
+}
+
+.basecoo{
+    width: 60%;
+    height: 120%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+        border: 3px solid white;
+}
+
+
+.basepc{
+    width: 60%;
+    height: 90%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+    border: 3px solid white;
+}
+
+
+.basegpu{
+    width: 60%;
+    height: 135%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+    border: 3px solid white;
+}
+
+
+.baseimg{
+    width: 60%;
+    height: 120%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 45px;
+    color: white;
+    border: 3px solid white;
+}
+
+
+.espaciocpu{
+    width: 100%;
+    height: 1%;
+    background-color: black;
+    position: static;
+}
+
+.espaciombo{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    position: static;
+}
+
+
+.espacioimg{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    position: static;
+}
+
+.formulariocpu{
+    width: 80%;
+    height: 88%;
+    background-color: black;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
+.formulariopc{
+    width: 80%;
+    height: 85%;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 20px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.subirimg{
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    bottom: 100px;
+}
+
+.subirimgmbo{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: 100px;
+}
+
+.subirimggababi{
+    width: 100%;
+    height: 32%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    bottom: 100px;
+}
+
+.subirimgcoo{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    bottom: 100px;
+}
+
+.subirimgpc{
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    bottom: 100px;
+}
+
+
+
+.principalimgimg{
+    width: 150px;
+    height: 150px;
+}
+
+.principalimgimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.imgprincipal{
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    left: 15%;
+    top: 0px;
+}
+
+.img2{
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    right: 15%;
+    top: 0px;
+}
+
+.img3{
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+}
+
+.img4{
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+}
+
+.imgtxt{
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    bottom: 0px;
+}
+
+.imgdiv{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box {
+    height: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid white !important;
+    background: black !important;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    color: white;
+    width: 50%;
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.box select {
+  background-color: black;
+  color: white;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}

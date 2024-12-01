@@ -1,0 +1,60 @@
+/* 
+    Created on : 27 nov. 2021, 23:01:59
+    Author     : omarc
+*/
+
+.principal{
+    width: 420px;
+    height: 432px;
+    background-color: transparent;
+    position: absolute;
+    transform: translate(8%, -108%);
+    z-index: 1;
+}
+
+.btn_prin{
+    position: absolute;
+    border-radius: 5px;
+}
+
+#escoger{
+    width: 370px;
+    height: 129px;
+    transform: translate(25px, 0);
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px orange, 0 0 10px orange;
+}
+
+#armar{
+    width: 375px;
+    height: 129px;
+    transform: translate(25px, 151.5px);
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px blue, 0 0 10px blue;
+}
+
+#vendedor{
+    width: 375px;
+    height: 129px;
+    transform: translate(25px, 303px);
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px green, 0 0 10px green;
+}
+
+.boton_next{
+    font-weight: bold;
+    color: white;
+    background-color: #02ABA0;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 5%;
+    border: 1px solid #016B64;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.boton_next:hover {
+    background: #02D1C3;
+    color: #fff;
+}

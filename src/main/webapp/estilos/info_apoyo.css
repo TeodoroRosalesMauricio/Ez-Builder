@@ -1,0 +1,127 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 23 mar. 2022, 20:24:17
+    Author     : omarc
+*/
+
+body{
+
+    color:black;
+
+}
+
+.banner{
+    height: auto;
+    background: black;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px blue, 0 0 10px blue;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#banner_main{
+    width: 1100px;
+    margin-right: 118px;
+    margin-left: 118px;
+    margin-bottom: 1%;
+}
+
+#banner_main img{
+    margin-top: 29px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    width: 15%;
+    height: 15%;
+}
+
+#banner_sub{
+    width: 600px;
+    height: 78px;
+    margin-right: 371.5px;
+    margin-left: 371.5px;
+    margin-bottom: 1%;
+
+}
+
+.text_banner{
+    color: white;
+    text-align: center;
+}
+
+#txt_main{
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 890px;
+    float: right;
+}
+
+#txt_main_escoger{
+    margin-top: 47px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 890px;
+    float: right;
+}
+
+#txt_sub{
+    margin-top: 15.5px;
+    width: 600px;
+}
+
+.tit_banner{
+    font-weight: bold;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#00ff66, #00a5a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#tit_2{
+
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.tit_banner_white{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.subtext_banner{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 200px;
+}
+
+
+
+.info_escoger{
+
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    /* border: 1px solid black;*/
+
+}
+
+.info_escoger{
+
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    /* border: 1px solid black;*/
+
+}
+
+.img1{
+    margin-top: 15px;
+    margin-right: 283.5px;
+    margin-bottom: -25px;
+}

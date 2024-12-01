@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 may. 2021, 0:21:20
+    Author     : omarc
+*/
+
+.footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px blue, 0 0 10px blue;
+    border-radius: 10px;
+}
+
+footer{
+    align-self: flex-end;
+    background-color: black;
+    line-height: 3;
+    width: 100%;
+}
+
+footer label{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+#twit{
+    width: 55px;
+    height: 55px;
+    margin-left: 10%;
+}
+
+#insta{
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+}
+
+#face{
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+}
+
+#check{
+    width: 60px;
+    height: 60px;
+}
+
+#foot1{
+    width: auto;
+    margin-left: 5%;
+}
+
+#foot2{
+    width: auto;
+    margin-left: 18%;
+}
+
+#foot2{
+    width: auto;
+    margin-right: 19%;
+}
+
+#foot3{
+    width: auto;
+    position: absolute;
+    right: 150px;
+    top: 666px;
+}
+
+.blancont:hover{
+    color: white;
+}
+
+#empresa{
+    width:180px;
+    height: 70px;
+    margin-left: 0;
+}

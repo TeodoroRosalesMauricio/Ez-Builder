@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 abr. 2022, 08:36:26
+    Author     : omarc
+*/
+
+/* Bloqueo de scroll horizontal */
+body{
+    overflow-x: hidden;
+}
+
+/* div "seleciona tu perfil" */
+#div1{
+    background-color: black;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 480px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Imágenes de perfiles */
+#div2{
+    display: block;
+    margin-top: 50px;
+}
+
+
+.perfiles{
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 34px;
+}
+
+.perfiles2{
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 34px;
+    height: 261px;
+}
